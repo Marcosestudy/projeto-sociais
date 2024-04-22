@@ -47,3 +47,26 @@ iframe#tela{
 
 
 }
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; /*essa opçao faz a imagem ficar toralmente redondas. */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+    box-sizing: border-box; /* essa configuraçao adiciona ao  border 2px solid white;  da section#redes-sociais img:hover{  é para a borda fazer parte da caixa */
+    
+
+
+
+}
+section#redes-sociais{
+    text-align: right;
+
+
+}
+section#redes-sociais img:hover{
+border: 2px solid rgba(255, 255, 255, 0.637);
+transform: translate(-3px, -3px); /*movimenta os botoes como se ve no site. */
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637); /*coloca sobrea por ter mechido no movimento */
+transition: transform 0.3s border 1s; /* quando clica ou coloca o mause em cima ele movimenta em segundos ou mais */
+
+}
